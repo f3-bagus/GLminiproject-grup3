@@ -1,0 +1,129 @@
+/* Navbar */
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.btn-succes-custom {
+  background-color: #325c58;
+  color: white;
+}
+
+.btn-succes-custom:hover {
+  background-color: #6ebeb6;
+  color: white;
+}
+
+/* Hero */
+.hero-section {
+  background: linear-gradient(to bottom, #35736e, #ffffff);
+  color: white;
+  padding: 100px 0;
+}
+
+.hero-section .btn-warning {
+  color: white;
+}
+
+.title-hero {
+  font-size: 60px;
+}
+
+/* category */
+.category-section .card {
+  border: none;
+  background-color: #d9d9d9;
+  width: 200px;
+  height: 215px;
+  border-radius: 10%;
+}
+
+/* new product */
+#new-product {
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #d9d9d9; /* contoh warna latar belakang */
+}
+
+/* best seller */
+.everyday-section {
+  background: #d9d9d9;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.best-seller-title {
+  font-size: 50px;
+  color: #2f2f2f;
+  margin-bottom: 30px;
+  padding-top: 100px;
+  padding-right: 50px;
+}
+
+.paragraph {
+  padding-right: 50px;
+  margin-bottom: 30px;
+  color: #6a6a6a;
+}
+
+/* footer */
+.footer {
+  background-color: white;
+  color: black;
+}
+
+.footer-logo {
+  margin-bottom: 10px;
+}
+
+.footer-description p {
+  width: 360px;
+  height: 119px;
+  font-size: 16px;
+  overflow: hidden; /* Jika konten lebih panjang, gunakan overflow: hidden; untuk menyembunyikan konten yang meluap */
+}
+
+.footer-social-icons img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 132px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  width: 150px;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.text-muted {
+  color: #fff;
+}
+
+.social-icon-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #808080;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+}
