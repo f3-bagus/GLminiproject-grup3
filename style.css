@@ -113,6 +113,10 @@
     max-width: 100px;
     height: auto;
   }
+
+  .footer-start {
+    justify-content: start !important;
+  }
 }
 
 /* category */
@@ -208,10 +212,7 @@
 }
 
 .footer-description p {
-  width: 360px;
-  height: 119px;
-  font-size: 16px;
-  overflow: hidden; /* Jika konten lebih panjang, gunakan overflow: hidden; untuk menyembunyikan konten yang meluap */
+  max-width: 360px;
 }
 
 .footer-social-icons img {
