@@ -71,11 +71,6 @@
   .freq-btn {
     align-items: center;
   }
-  .shopping-section {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
-  }
 }
 
 /* Responsive Mobile */
@@ -118,11 +113,6 @@
     max-width: 100px;
     height: auto;
   }
-  .shopping-section {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    text-align: center;
-  }
 }
 
 /* category */
@@ -139,6 +129,13 @@
   padding-bottom: 50px;
   padding-top: 50px;
 }
+
+.shopping-title {
+  font-size: 50px;
+  color: #2f2f2f;
+  margin-bottom: 30px;
+}
+
 .custom-img {
   width: 500px;
   height: auto;
