@@ -235,6 +235,39 @@
   display: inline-block;
 }
 
+.contact .php-email-form {
+  height: 100%;
+  margin-top: 1rem;
+  background-color: #d9d9d9;
+}
+#container-contact{
+  background-color: #d9d9d9;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0.2rem;
+  color: #000000;
+  background: #fdffff;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #d9d9d9;
+  outline: 2px solid #d9d9d9;
+}
+
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
 /* @media (max-width: 576px) {
   .hero-img {
     display: none;
