@@ -13,7 +13,7 @@
 }
 
 .btn-warning-custom:hover {
-  background-color: #ccb14d;
+  background-color: #e7b500;;
   color: white;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .btn-succes-custom:hover {
-  background-color: #6ebeb6;
+  background-color: #427e78;;
   color: white;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .title-hero {
-  font-size: 100px;
+  font-size: 55px;
 }
 
 .hero-img img {
@@ -133,30 +133,32 @@
 
 /* Responsive Mobile */
 @media (max-width: 768px) {
-  .frequently-section {
-    padding: 15px;
+  .hero-section {
+      padding: 10px;
+      padding-top: 50px;
   }
 
-  .frequently-title {
-    font-size: 40px;
+  .title-hero {
+      font-size: 50px;
   }
 
-  .paragraph {
-    padding-right: 10px;
-    margin-bottom: 30px;
-    color: #6a6a6a;
+  .hero-btn button {
+      margin-bottom: 10px;
   }
 
-  .freq-btn button {
-    margin-bottom: 10px;
-  }
+  .hero-btn button{
+      width: 200px;
+    }
 
-  .freq-btn button {
-    width: 200px;
-  }
-
-  .freq-img img {
-    max-width: 100%;
+  .hero-img img{
+    padding-top: 50px;
+    max-width: 100%; 
     height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-img {
+    display: none;
   }
 }
