@@ -60,7 +60,6 @@
       <div
         class="container d-flex justify-content-between flex-md-row flex-column"
       >
-        <!-- <div class=""> -->
         <div class="pt-5 pe-4 order-md-1 order-2">
           <h1 class="title-hero fw-bolder">Welcome to our shop</h1>
           <p class="pt-3">
@@ -77,7 +76,6 @@
             </button>
           </div>
         </div>
-        <!-- </div> -->
         <div
           class="hero-img order-1"
           data-aos="fade-left"
@@ -93,7 +91,7 @@
     </section>
 
     <!-- Categories Section -->
-    <section class="category-section">
+    <section id="category-section" class="category-section">
       <div class="container mt-5 mb-5">
         <h2>Product Category</h2>
         <div class="row justify-content-between row-cols-2 row-cols-lg-4 mt-5">
@@ -222,12 +220,12 @@
     </section>
 
     <!-- Frequently Searched Section -->
-    <section class="frequently-section">
+    <section id="frequently-section" class="frequently-section">
       <div
         class="container d-flex justify-content-between flex-md-row flex-column"
       >
-        <div class="pe-4 order-md-1 order-2">
-          <h1 class="frequently-title">Get Your Everyday Needs</h1>
+        <div class="pt-3 order-md-1 order-2">
+          <h1 class="frequently-title fw-bolder">Get Your Everyday Needs</h1>
           <p class="paragraph">
             One Click Away For Your Grocery Needs. All your household needs in
             one place, Your Pocket. You can find a variety of product from fresh
@@ -237,7 +235,7 @@
           </p>
           <div class="freq-btn">
             <button class="btn btn-warning-custom">
-              <i class="bi bi-cart4 me-2"></i>Start Shopping
+              <i class="bi bi-cart4 me-2"></i>Shop Now!
             </button>
           </div>
         </div>
@@ -260,7 +258,7 @@
     </section>
 
     <!-- Section -->
-    <section id="shopping-section">
+    <section id="shopping-section" class="shopping-section">
       <div
         class="container d-flex justify-content-between flex-md-row flex-column mb-5 mt-5"
       >
@@ -279,7 +277,7 @@
             class="img-fluid custom-img"
           />
         </div>
-        <div class="ps-4 order-md-1 order-2">
+        <div class="order-md-1 order-2">
           <h1 class="frequently-title">Let's Shopping with Us and Enjoy!</h1>
           <div class="freq-btn">
             <button class="btn btn-warning-custom">
@@ -483,32 +481,74 @@
       </div>
     </section>
 
-    <Section id="contact" class="contact mt-5">
-      <div class="container py-5" id="container-contact">
-          <form action="" class="php-email-form">
-              <div class="row gy-4">
-                  <div class="col-md-6">
-                      <input type="text" name="name" class="form-control" placeholder="Your Name" required />
-                  </div>
-                  <div class="col-md-6">
-                      <input type="email" name="email" class="form-control" placeholder="Your Email" required />
-                  </div>
-                  <div class="col-md-12">
-                      <input type="text" name="subject" class="form-control" placeholder="Subject" required />
-                  </div>
-                  <div class="col-md-12">
-                      <textarea name="message" row="6" class="form-control" placeholder="Message"
-                          required></textarea>
-                  </div>
-                  <div class="col-md-12">
-                      <button type="button" class="btn btn-outline-success">
-                          Contact Us
-                      </button>
-                  </div>
-              </div>
-          </form>
+    <!-- About Us Section -->
+    <section id="about-section" class="about-section">
+      <div class="container d-flex flex-md-row flex-column">
+        <div class="order-md-1 order-2">
+          <h1 class="about-title">About Toko Bu Is</h1>
+          <p class="about-paragraph">
+            We are a grocery store that provides all your daily needs. We play
+            an important role as a daily shopping solution for local communities
+            at affordable prices.
+          </p>
+          <button class="btn btn-succes-custom" href="#contact">
+            <i class="bi bi-arrow-down me-2"></i>Contact Us
+          </button>
+        </div>
       </div>
-      </Section>
+    </section>
+
+    <!-- Contact US Section -->
+    <section id="contact" class="contact mt-5">
+      <div class="container py-5" id="container-contact">
+        <form action="" class="php-email-form">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="col-md-12">
+              <input
+                type="text"
+                name="subject"
+                class="form-control"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="col-md-12">
+              <textarea
+                name="message"
+                row="6"
+                class="form-control"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+            <div class="col-md-12">
+              <button type="button" class="btn btn-outline-success">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+            
+    </section>
 
     <!-- Footer -->
     <section id="footer" class="footer">
