@@ -254,21 +254,13 @@
   display: inline-block;
 }
 
-.contact .php-email-form {
-  height: 100%;
-  margin-top: 1rem;
-  background-color: #d9d9d9;
-}
-#container-contact {
-  background-color: #d9d9d9;
-}
-
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 0.2rem;
+  border-color: #a1a1a1;
   color: #000000;
   background: #fdffff;
 }
