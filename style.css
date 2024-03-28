@@ -122,6 +122,11 @@
   width: 200px;
   height: 215px;
   border-radius: 10%;
+  overflow: hidden;
+}
+
+.category-section .card img {
+  object-fit: cover;
 }
 
 /* lets shopping */
