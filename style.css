@@ -8,12 +8,12 @@
 }
 
 .btn-warning-custom {
-  background-color: #ffd748;
+  background-color: #ffc800;
   color: white;
 }
 
 .btn-warning-custom:hover {
-  background-color: #e7b500;
+  background-color: #f3ae02;
   color: white;
 }
 
@@ -153,6 +153,16 @@
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #d9d9d9;
+}
+
+.btn-fav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 25px;
+}
+
+.btn-fav:hover .bi-heart {
+  color: red;
 }
 
 /* Frequently Searched */
