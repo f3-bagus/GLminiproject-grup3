@@ -125,6 +125,10 @@
   overflow: hidden;
 }
 
+.category-section .card:hover {
+  background-color: #b3b3b3;
+}
+
 .category-section .card img {
   object-fit: cover;
 }
