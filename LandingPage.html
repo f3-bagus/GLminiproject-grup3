@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -79,10 +80,12 @@
         <div
           class="hero-img order-1"
           data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="100"
           data-aos-duration="1000"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-easing="ease-in-sine"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
           class="text-center order-md-2 order-1"
         >
           <img src="img/hero2.png" alt="Image" class="img-fluid" />
@@ -248,10 +251,12 @@
         <div
           class="freq-img order-1"
           data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="100"
           data-aos-duration="1000"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-easing="ease-in-sine"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
           class="text-center order-md-2 order-1"
         >
           <img
@@ -273,10 +278,12 @@
         <div
           class="freq-img order-1"
           data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="100"
           data-aos-duration="1000"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-easing="ease-in-sine"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
           class="text-center order-md-2 order-1"
         >
           <img
@@ -309,7 +316,7 @@
             <div class="card">
               <img
                 src="img/product/product-1.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Sunlight"
               />
               <div
@@ -320,13 +327,15 @@
                   <p class="card-text">
                     Sunlight Sabun Cuci Piring Jeruk Nipis 210 ml
                   </p>
-                  <h5 class="card-title pt-3">Rp 4.900</h5>
+                  <h5 class="card-price pt-3">Rp 4.900</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -335,7 +344,7 @@
             <div class="card">
               <img
                 src="img/product/product-2.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Indomie"
               />
               <div
@@ -344,13 +353,15 @@
                 <div class="col-10">
                   <h5 class="card-title">Indomie Goreng</h5>
                   <p class="card-text">Indomie Mi Instan Goreng 84 g</p>
-                  <h5 class="card-title pt-3">Rp 3.100</h5>
+                  <h5 class="card-price pt-3">Rp 3.100</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -359,7 +370,7 @@
             <div class="card">
               <img
                 src="img/product/product-3.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Ultra Milk"
               />
               <div
@@ -368,13 +379,15 @@
                 <div class="col-10">
                   <h5 class="card-title">Ultra Milk</h5>
                   <p class="card-text">Ultra Milk Susu UHT Full Cream 200 ml</p>
-                  <h5 class="card-title pt-3">Rp 6.200</h5>
+                  <h5 class="card-price pt-3">Rp 6.200</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -383,7 +396,7 @@
             <div class="card">
               <img
                 src="img/product/product-4.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Kecap Bango"
               />
               <div
@@ -392,13 +405,15 @@
                 <div class="col-10">
                   <h5 class="card-title">Kecap Bango</h5>
                   <p class="card-text">Bango Kecap Manis Refill 210 ml</p>
-                  <h5 class="card-title pt-3">Rp 12.900</h5>
+                  <h5 class="card-price pt-3">Rp 12.900</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -407,7 +422,7 @@
             <div class="card">
               <img
                 src="img/product/product-5.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Tissue Nice"
               />
               <div
@@ -416,13 +431,15 @@
                 <div class="col-10">
                   <h5 class="card-title">Tissue Nice</h5>
                   <p class="card-text">nice Facial Tissue Soft Pack 250 s</p>
-                  <h5 class="card-title pt-3">Rp 16.300</h5>
+                  <h5 class="card-price pt-3">Rp 16.300</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -431,7 +448,7 @@
             <div class="card">
               <img
                 src="img/product/product-6.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Sambal Indofood"
               />
               <div
@@ -440,13 +457,15 @@
                 <div class="col-10">
                   <h5 class="card-title">Sambal Indofood</h5>
                   <p class="card-text">Indofood Sambal Pedas 275 ml</p>
-                  <h5 class="card-title pt-3">Rp 11.900</h5>
+                  <h5 class="card-price pt-3">Rp 11.900</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -455,7 +474,7 @@
             <div class="card">
               <img
                 src="img/product/product-7.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Le Minerale"
               />
               <div
@@ -464,13 +483,15 @@
                 <div class="col-10">
                   <h5 class="card-title">Le Minerale</h5>
                   <p class="card-text">Le Minerale Air Mineral 330 ml</p>
-                  <h5 class="card-title pt-3">Rp 2.500</h5>
+                  <h5 class="card-price pt-3">Rp 2.500</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -479,7 +500,7 @@
             <div class="card">
               <img
                 src="img/product/product-8.png"
-                class="img-fluid pt-3"
+                class="img-fluid pt-3 img-product"
                 alt="Kool Fever"
               />
               <div
@@ -490,13 +511,15 @@
                   <p class="card-text">
                     KoolFever Plester Penurun Demam Anak 1 pcs
                   </p>
-                  <h5 class="card-title pt-3">Rp 10.400</h5>
+                  <h5 class="card-price pt-3">Rp 10.400</h5>
                 </div>
                 <button class="btn btn-fav col-2 d-flex justify-content-end">
                   <i class="bi bi-heart"></i>
                 </button>
               </div>
-              <button class="btn btn-warning-custom btn-block mx-3 mb-4">
+              <button
+                class="btn btn-warning-custom btn-block btn-buy mx-3 mb-4"
+              >
                 Buy
               </button>
             </div>
@@ -839,6 +862,32 @@
       </div>
     </section>
 
+    <!-- Modal Product Details -->
+    <div
+      class="modal fade"
+      id="productModal"
+      tabindex="-1"
+      aria-labelledby="productModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div id="productDetails"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -846,10 +895,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
     <!-- AOS -->
     <script>
       AOS.init();
     </script>
+
+    <script src="script.js"></script>
   </body>
 </html>
